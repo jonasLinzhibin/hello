@@ -1,0 +1,19 @@
+{
+    "name": "jonaslinzhibin/hello",
+    "description": "echo hello world",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jonasLinzhibin",
+            "email": "jonasLinzhibin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hello\\": "src/"
+        }
+    }
+}
